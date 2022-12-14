@@ -14,14 +14,14 @@ img{
 }
 
 .debug .container{
-    border: 3px dashed red;
+    border: 3px dashed black;
     padding: 20px;
     margin: 0 auto;
     max-width: 900px;
 }
 
 .debug .container-fw{
-    border: 3px dashed red;
+    border: 3px dashed black;
     padding: 20px;
     margin: 0 auto;
     max-width: 700px;
@@ -32,24 +32,29 @@ img{
     padding: 10px;
 }
 
-.debug .section-3{
+.debug .section-3, .section-5{
  background-color: rgb(172, 172, 172);
 }
 
 .debug .col{
-    background-color: chartreuse;
+    background-color: salmon;
     padding: 5px;
 }
 
 .debug .row{
-    background-color: chocolate;
+    border: 2px solid black;
     padding: 15px;
 }
 
 .debug .row-section1{
-    background-color: rgb(247, 113, 3);
+    border: 2px solid black;
     padding: 15px;
     min-height: 300px;
+}
+
+.debug .square{
+    min-height: 500px;
+    background-color: green;
 }
 
 .row{
@@ -73,6 +78,10 @@ img{
 
 .col-60{
     flex-basis: 60%;
+}
+
+.debug .col-60{
+    border: 1px dashed black;
 }
 
 .col-70{
