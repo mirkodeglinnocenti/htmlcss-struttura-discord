@@ -9,7 +9,7 @@ img{
 }
 
 .debug header{
-    background-color: aqua;
+    background-color: #ADD8E6;
     padding: 10px;
 }
 
@@ -28,16 +28,16 @@ img{
 }
 
 .debug .section-1{
-    background-color: blue;
+    background-color: #00008B;
     padding: 10px;
 }
 
 .debug .section-3, .section-5{
- background-color: rgb(172, 172, 172);
+ background-color: #D3D3D3;
 }
 
 .debug .col{
-    background-color: salmon;
+    background-color: #DAA520;
     padding: 5px;
 }
 
@@ -47,13 +47,12 @@ img{
 }
 
 .debug .row-section1{
-    border: 2px solid black;
-    padding: 15px;
+    background-color: #EE82EE;
     min-height: 300px;
 }
 
-.debug .square{
-    min-height: 500px;
+.debug .row-section5{
+    min-height: 600px;
     background-color: green;
 }
 
@@ -89,7 +88,7 @@ img{
 }
 
 .debug .col-70{
-    background-color: rgb(107, 233, 233);
+    background-color: #1E90FF;
     border: 1px dashed black;
     min-height: 300px;
 }
