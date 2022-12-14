@@ -56,6 +56,10 @@ img{
     background-color: green;
 }
 
+.debug .main-footer, .small-footer{
+    background-color: #23272A;
+}
+
 .row{
     display: flex;
     align-items: center;
@@ -77,6 +81,11 @@ img{
 
 .col-60{
     flex-basis: 60%;
+    text-align: center;
+}
+
+.t-dx{
+    text-align: right;
 }
 
 .debug .col-60{
@@ -101,4 +110,38 @@ img{
     background-color: rgb(252, 187, 198);
     border: 1px dashed black;
     min-height: 300px;
+}
+
+
+.col25{
+    flex-basis: calc( (100%/6) *2 );
+    order: -1;
+}
+
+.debug .col25{
+    background-color: #F08080;
+    min-height: 450px;
+    border: 2px dotted black;
+}
+
+.col15{
+    flex-basis: calc( (100%/6));
+}
+
+.debug .col15{
+    background-color: #20B2AA;
+    min-height: 450px;
+    border: 2px dotted white;
+}
+
+.row-footer{
+    justify-content: space-between;
+}
+
+.debug .row-footer{
+    background-color: #7FFFD4;
+}
+
+.row-footer .col{
+    background-color: #F08080;
 }
